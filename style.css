@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body {
+    background-color: #2a292b;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px
+}
+
+.logo {
+    width: 100%;
+}
+
+.alignlogo {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Contato {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 50px
+}
+
+.list-itens {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+    margin: 50px 0 20px 0;
+    align-items: center;
+}
+
+.list-itens h3 {
+    color: whitesmoke;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 0 3px rgba(0,0,0,0.8);
+}
+
+
+.list-itens button {
+    margin: 30px;
+    text-decoration: none;
+    border: none;
+    background: rgba(42,41,43,0.5);
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.buttonsBorderRadius{
+    border-radius: 50%;
+}
+    
+    
+
+.list-itens button:hover {
+    background-color: #D9856C;
+    transition: .3s ease-out
+}
